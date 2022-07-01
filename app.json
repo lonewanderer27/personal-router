@@ -1,7 +1,7 @@
 {
-  "name": "Shadowsocks+V2Ray-plugin Rapid deployment",
-  "description": "Deploy Shadowsocks+V2Ray-plugin to Heroku.",
-  "keywords": ["V2ray", "Shadowsocks", "V2Ray-plugin"],
+  "name": "personal-router deployment",
+  "description": "Deploy Personal-Router to Heroku.",
+  "keywords": ["Shell"],
   "env": {
      "ENCRYPT": {
       "description": "Encryption method, due to https blessing, choose the simplest one, default: rc4-md5, others are（aes-256-cfb,chacha20-ietf-poly1305,salsa20,chacha20-ietf etc.）",
@@ -13,7 +13,7 @@
     },
 
     "VER": {
-       "description": "v2ray-plugin version, the latest version is installed by default, you can go to https://github.com/shadowsocks/v2ray-plugin/releasesV2Ray to select the version (for example: 1.1.0)",
+       "description": plugin version, the latest version is installed by default, you can go to select the version (for example: 1.1.0)",
        "value": "latest"
      }, 
 
