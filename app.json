@@ -13,7 +13,7 @@
     },
 
     "VER": {
-       "description": plugin version, the latest version is installed by default, you can go to select the version (for example: 1.1.0)",
+       "description": "plugin version, the latest version is installed by default, you can go to select the version (for example: 1.1.0)",
        "value": "latest"
      }, 
 
